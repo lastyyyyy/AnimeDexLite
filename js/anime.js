@@ -1,12 +1,12 @@
 // Api urls
 
-const ProxyApi = "https://proxy.techzbots1.workers.dev/?u=";
+const ProxyApi = "https://cors-proxcy.ld-meow.workers.dev/?u=";
 const animeapi = "/anime/";
 const recommendationsapi = "/recommendations/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://api100.anime-dex.workers.dev"];
+const AvailableServers = ["https://api3.ld-meow.workers.dev/"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
